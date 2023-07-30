@@ -591,13 +591,68 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="modal-field">
+            <label class="input-label" for="user-name"> Name</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name=""
+                class="modal-input"
+                required=""
+                id="user-name"
+              />
+              <svg class="modal-input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+          <label class="input-label" for="user-phone">Phone</label>
+          <div class="input-wrap">
+          <input
+            type="phone"
+            name="user-phone"
+            class="modal-input"
+            required=""
+            id="user-phone"
+          />
+          <svg class="modal-input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+                </div>
+                <div class="modal-field">
+          <label class="input-label" for="user-email">Email</label>
+           <div class="input-wrap">
+          <input
+            type="email"
+            name=""
+            class="modal-input"
+            required=""
+            id="user-email"
+          />
+           <svg class="modal-input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-email"></use>
+         </div> 
+</div>
+<div class="modal-field">
+            <label for="user-text" class="input-label">Comment</label>
+            <textarea
+              name="user-text"
+              id="user-text"
+              class="modal-textarea"
+              placeholder="Text input"   
+             ></textarea>
+          </div>
+          <button class="button-modal"tupe="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
