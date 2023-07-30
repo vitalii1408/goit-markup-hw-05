@@ -88,7 +88,6 @@ img {
 .header-logo-link:hover {
   color: #404bbf;
 }
-
 .header-logo-link:focus {
   color: #404bbf;
 }
@@ -97,12 +96,10 @@ img {
 }
 .header-cont {
 }
-
 .mailo {
   display: flex;
   gap: 40px;
 }
-
 .logo-span {
   color: var(--accent-color);
   font-size: 18px;
@@ -471,7 +468,7 @@ img {
   letter-spacing: 0.02em;
   width: 264px;
 }
-.social-icon 
+.social-icon {}
 
 /**--portfolio--*/
 
@@ -628,7 +625,8 @@ img {
 }
 
 .tec {
-}
+}  
+
 /**footer section*/
 
 .footer {
