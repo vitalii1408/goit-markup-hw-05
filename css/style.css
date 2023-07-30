@@ -817,10 +817,12 @@ img {
   border-color: #4d5ae5;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:hover {
+.modal-input:focus + .modal-input-icon {
   border-color: #4d5ae5;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #4d5ae5;
 }
+
 .modal-field {
   margin-bottom: 8px;
 }
@@ -869,4 +871,42 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   padding: 16px 8px;
+  margin-bottom: 16px;
+}
+.check-text {
+  color: #8e8f99;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.privacy-link {
+  color: #4d5ae5;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+}
+.check-text span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
+  border-radius: 2px;
+  fill: #fcfcfc;
+}
+.modal-check:checked + .check-text span {
+  background: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+.modal-textarea:focus {
+  border-color: #4d5ae5;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
