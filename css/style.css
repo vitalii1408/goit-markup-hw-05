@@ -1077,10 +1077,8 @@ border-radius: 4px;
 margin-bottom: 24px;
 }
 .modal-span{
- display: inline-flex;
+  display: inline-flex;
  fill: transparent;
-}
-.modal-span{
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
