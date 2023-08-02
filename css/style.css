@@ -811,6 +811,10 @@ letter-spacing: 0.02em;
 }
 .subscribe-form{
   display: flex;
+  
+}
+.subscribe-div{
+  display: flex;
   gap: 24px;
 }
 .subscribe-input{
