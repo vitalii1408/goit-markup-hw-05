@@ -1047,6 +1047,11 @@ border-radius: 4px;
 }
 
 .check-text {
+  
+}
+.modal-span{
+  display: inline-block;
+  fill: transparent;
   align-items: center;
   justify-content: center;
   margin-right: 8px;
@@ -1056,10 +1061,6 @@ border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-span{
-  display: inline-block;
-  fill: transparent;
 }
 .modal-check:checked + .check-text span {
   background: #404bbf;
