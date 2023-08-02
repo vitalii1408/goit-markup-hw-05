@@ -1045,14 +1045,6 @@ border-radius: 4px;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
 }
-
-.check-text {
- font-size: 12px;
- line-height: 1.17;
- letter-spacing: 0.04em;
- color: #8e8f99;
-
-}
 .modal-span{
   width: 16px;
   height: 16px;
@@ -1064,7 +1056,7 @@ border-radius: 4px;
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
-  fill: #fcfcfc; 
+  
 }
 .modal-check:checked + .check-text span {
   background: #404bbf;
