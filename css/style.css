@@ -932,18 +932,23 @@ img {
 }
 
 .button-modal {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif ;
   margin: 0 auto;
   display: block;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   border-radius: 4px;
-  background: #4d5ae5;
+  background-color: #4D5AE5;
   color: #ffffff;
   cursor: pointer;
   min-width: 169px;
   height: 56px;
   border: none;
   padding: 16px 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-modal:hover {
@@ -972,10 +977,10 @@ img {
 .check-text {
   color: #8e8f99;
   font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
 }
 
 .privacy-link {
@@ -1000,7 +1005,7 @@ img {
   fill: #fcfcfc;
 }
 
-.modal-check:checked+.check-text span {
+.modal-check:checked+.check-text .modal-span {
   background: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -1009,4 +1014,18 @@ img {
 .modal-textarea:focus {
   border-color: #4d5ae5;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-checkbox {
+margin-bottom: 24px;
+}
+.modal-span{
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; 
+  fill: transparent;
 }
